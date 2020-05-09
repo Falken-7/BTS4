@@ -1,0 +1,56 @@
+.header *{
+    background-color:rgb(20,230,20);
+    padding: 20px;
+    margin-left: 20px;
+}
+.links {
+   background-image: inherit;
+opacity: 1;
+}
+.about {
+    background-color:rgb(20,230,20);
+    padding-bottom: 20px;
+    background-image: "about1.png";
+    opacity: 10;
+    border-radius: 20px;
+    width: 800px;
+    margin-left: 20px;
+   
+}
+body{
+    background-color:#2343a2;
+}
+.Contact {
+ justify-content: space-between;
+ flex-wrap: wrap;
+ 
+  margin: 20px;
+}
+
+.div {
+margin-bottom : 20px;
+
+}
+.bg{
+    background-color:#2343a2;
+    border-style: double;
+    margin-left: 20px;
+    
+}
+.exp {
+border-radius: 20px;
+padding: 20px;
+margin-left: 20px;
+background-color: rgb(20,230,20);
+}
+.front h1{
+    position:absolute;
+    top: 80%;
+    left:35%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.front:hover h1{
+    opacity:1;
+}
